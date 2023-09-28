@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(29, 29, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 30%;
+    height: 60%;
+    background: crimson;
+    border-radius: 200px 200px 70px 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    overflow: hidden; 
+}
+.box1{
+    width: 30%;
+    height: 30%;
+    background: bisque;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    width: 30%;
+    height: 30%;
+    background: bisque;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.cart{ 
+    width: 100px;
+    height: 20px;
+    background: bisque;
+    margin-top: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}

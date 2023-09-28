@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: dodgerblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 60%;
+    height: 60%;
+    background: blue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 85%;
+    height: 140%;
+    background: dodgerblue;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.mini__box{
+    width: 60%;
+    height: 75%;
+    background: blue;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.mini_mini_box{
+    width: 30%;
+    height: 30%;
+    background: yellow;
+    border-radius: 50%;
+}
